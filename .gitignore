@@ -51,3 +51,7 @@ ipch/
 *.vsp
 *.vspx
 Src/Client/build
+2DTopDownShooterDemo/Logs
+2DTopDownShooterDemo/UserSettings
+*.csproj
+2DTopDownShooterDemo/Build
