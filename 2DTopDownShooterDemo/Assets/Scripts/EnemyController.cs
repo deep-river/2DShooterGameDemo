@@ -11,7 +11,10 @@ public class EnemyController : MonoBehaviour
     public GameObject player;
     private Rigidbody2D rb;
 
+    // 被击中后喷血动画
     public GameObject bloodSplatPrefab;
+    // 死亡后血迹
+    public GameObject bloodStainPrefab;
 
     SpriteRenderer spriteRenderer;
     Color originalColor;
@@ -99,6 +102,8 @@ public class EnemyController : MonoBehaviour
     {
         // 喷血效果
         Instantiate(bloodSplatPrefab, rb.position, Quaternion.identity);
+        // 在地图上留下血迹
+        Instantiate(bloodStainPrefab, rb.position, gameObject.transform.rotation);
 
         PlayerController playerController = player.GetComponent<PlayerController>();
         playerController.AddExperience(experience);

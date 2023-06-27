@@ -137,6 +137,7 @@ MonoBehaviour:
   experience: 25
   player: {fileID: 0}
   bloodSplatPrefab: {fileID: 415743932581760234, guid: ac74c2e12ac218b4b963cc6f09f081fd, type: 3}
+  bloodStainPrefab: {fileID: 2589868597166603977, guid: 0447f920683ae214fad55057a20362de, type: 3}
 --- !u!50 &6255477635772990573
 Rigidbody2D:
   serializedVersion: 4
