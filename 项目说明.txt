@@ -1,0 +1,58 @@
+项目说明：
+
+解压文件后，在Unity Hub中添加2DTopDownShooterDemo文件夹，并打开项目。
+
+游戏场景位于 2DTopDownShooterDemo\Assets\Scenes\SampleScene.unity。
+
+游戏类型为俯视角2D射击游戏。
+
+
+
+游戏中采用了如下技巧来表现game feel：
+
+1. 角色开火速度随角色等级提升而变快
+
+2. 子弹尺寸随子弹伤害提升而变大
+
+3. 子弹射速随角色等级提升而变快
+
+4. 子弹射速变快会使子弹散射距离变大，准确度下降
+
+5. 玩家发射子弹时有后座力效果，具体表现为抖动位移，且随子弹伤害提升而幅度变大
+
+6. 敌人与玩家角色被击中后颜色闪烁，并有血液溅射动画效果
+
+7. 敌人被击中后会有抖动位移效果（knockback）
+
+8. 玩家射击时有屏幕抖动效果，且幅度随子弹伤害增加而增大
+
+9. 玩家发射的子弹有几率为爆炸子弹，威力提升且击中敌人后产生爆炸动画
+
+10. 玩家开火时枪口有烟雾动画效果
+
+11. 敌人死亡后会在地面上留下血迹贴图
+
+
+
+游戏开发时长：
+
+9~14小时
+
+
+
+项目中使用了如下开源资源中的图片、动画素材：
+
+Assets Free Laser Bullets Pack 2020：
+https://wenrexa.itch.io/laser2020
+
+Particle FX 1.0：
+https://ragnapixel.itch.io/particle-fx
+
+Smoke FX Lite Zip 5.25.23：
+https://jasontomlee.itch.io/smoke-fx-free
+
+Explosion free pack：
+https://xyezawr.itch.io/free-pixel-effects-pack-4-explosions
+
+blood-effect-sprite-sheet：
+https://opengameart.org/content/blood-effect-sprite-sheet
