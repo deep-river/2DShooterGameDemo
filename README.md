@@ -1,6 +1,6 @@
 # 2DShooterGameDemo  
 ### Unity 2D俯视角射击-游戏机制演示项目  
-- 点击该页面右侧的Release栏下载可运行的游戏Demo  
+- 点击该页面右侧的Release栏下载可运行的游戏Demo压缩包-DemoBuild.zip  
 - 操作说明见压缩包中的文档
 
 ### 预览图:  
